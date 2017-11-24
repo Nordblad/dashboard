@@ -1,7 +1,10 @@
 import * as React from 'react'
+import DashboardContainer from './DashboardContainer'
 
 export default class App extends React.Component<{}, {}> {
     render() {
-        return <div>Hej!</div>
+        return (
+        <div><DashboardContainer /></div>
+        )
     }
 }
